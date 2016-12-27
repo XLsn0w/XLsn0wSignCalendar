@@ -14,9 +14,11 @@
 		3586BF471E11FEB3003347F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3586BF461E11FEB3003347F6 /* Assets.xcassets */; };
 		3586BF4A1E11FEB3003347F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3586BF481E11FEB3003347F6 /* LaunchScreen.storyboard */; };
 		3586BF531E11FEF9003347F6 /* SignCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3586BF521E11FEF9003347F6 /* SignCalendarViewController.m */; };
+		64A667436F02ACFB25A2BE6C /* libPods-XLsn0wSignCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A13201F919F3CAC36EE1FF /* libPods-XLsn0wSignCalendar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B753BDDA6A6ABB9FDBEABF0 /* Pods-XLsn0wSignCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wSignCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wSignCalendar/Pods-XLsn0wSignCalendar.debug.xcconfig"; sourceTree = "<group>"; };
 		3586BF371E11FEB2003347F6 /* XLsn0wSignCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLsn0wSignCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3586BF3B1E11FEB2003347F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3586BF3D1E11FEB2003347F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +31,9 @@
 		3586BF4B1E11FEB3003347F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3586BF511E11FEF9003347F6 /* SignCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignCalendarViewController.h; sourceTree = "<group>"; };
 		3586BF521E11FEF9003347F6 /* SignCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignCalendarViewController.m; sourceTree = "<group>"; };
+		3586BF541E120387003347F6 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		68067A3551CC5E81568C0F51 /* Pods-XLsn0wSignCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wSignCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wSignCalendar/Pods-XLsn0wSignCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		87A13201F919F3CAC36EE1FF /* libPods-XLsn0wSignCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLsn0wSignCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64A667436F02ACFB25A2BE6C /* libPods-XLsn0wSignCalendar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16675D98F44FCB83F7BC0E5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B753BDDA6A6ABB9FDBEABF0 /* Pods-XLsn0wSignCalendar.debug.xcconfig */,
+				68067A3551CC5E81568C0F51 /* Pods-XLsn0wSignCalendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3586BF2E1E11FEB2003347F6 = {
 			isa = PBXGroup;
 			children = (
 				3586BF391E11FEB2003347F6 /* XLsn0wSignCalendar */,
 				3586BF381E11FEB2003347F6 /* Products */,
+				16675D98F44FCB83F7BC0E5E /* Pods */,
+				83F418D38C983194CECF22AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,7 @@
 				3586BF411E11FEB3003347F6 /* ViewController.m */,
 				3586BF511E11FEF9003347F6 /* SignCalendarViewController.h */,
 				3586BF521E11FEF9003347F6 /* SignCalendarViewController.m */,
+				3586BF541E120387003347F6 /* PrefixHeader.pch */,
 				3586BF431E11FEB3003347F6 /* Main.storyboard */,
 				3586BF461E11FEB3003347F6 /* Assets.xcassets */,
 				3586BF481E11FEB3003347F6 /* LaunchScreen.storyboard */,
@@ -84,6 +102,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		83F418D38C983194CECF22AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87A13201F919F3CAC36EE1FF /* libPods-XLsn0wSignCalendar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3586BF4E1E11FEB3003347F6 /* Build configuration list for PBXNativeTarget "XLsn0wSignCalendar" */;
 			buildPhases = (
+				063896625BC8222DBB7C53DB /* [CP] Check Pods Manifest.lock */,
 				3586BF331E11FEB2003347F6 /* Sources */,
 				3586BF341E11FEB2003347F6 /* Frameworks */,
 				3586BF351E11FEB2003347F6 /* Resources */,
+				B4EE9999F4C284507363DA13 /* [CP] Embed Pods Frameworks */,
+				36463570BB26AAF40CCB65F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -150,6 +179,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		063896625BC8222DBB7C53DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36463570BB26AAF40CCB65F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLsn0wSignCalendar/Pods-XLsn0wSignCalendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4EE9999F4C284507363DA13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLsn0wSignCalendar/Pods-XLsn0wSignCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3586BF331E11FEB2003347F6 /* Sources */ = {
@@ -275,9 +352,11 @@
 		};
 		3586BF4F1E11FEB3003347F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B753BDDA6A6ABB9FDBEABF0 /* Pods-XLsn0wSignCalendar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TJFMNSFT3H;
+				GCC_PREFIX_HEADER = XLsn0wSignCalendar/PrefixHeader.pch;
 				INFOPLIST_FILE = XLsn0wSignCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xlsn0w.XLsn0wSignCalendar;
@@ -287,9 +366,11 @@
 		};
 		3586BF501E11FEB3003347F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68067A3551CC5E81568C0F51 /* Pods-XLsn0wSignCalendar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TJFMNSFT3H;
+				GCC_PREFIX_HEADER = XLsn0wSignCalendar/PrefixHeader.pch;
 				INFOPLIST_FILE = XLsn0wSignCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xlsn0w.XLsn0wSignCalendar;
@@ -316,6 +397,7 @@
 				3586BF501E11FEB3003347F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

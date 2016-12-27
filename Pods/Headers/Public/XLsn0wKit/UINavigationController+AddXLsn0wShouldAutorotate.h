@@ -1,0 +1,1 @@
+../../../XLsn0wKit/XLsn0w/XLsn0wExtensionKit/UINavigationController/UINavigationController+AddXLsn0wShouldAutorotate.h

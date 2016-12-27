@@ -35,7 +35,7 @@ typedef NS_ENUM(NSInteger, XLMonth) {
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"打卡签到";
     _score = @(0);
-    _user = kCurrentUser;
+    _user = [[[XLDatabase sharedInstance] selectUserArrayFromXLDatabase] firstObject];
     _date = [NSDate date];
     [self drawCalendarUI];
 }
@@ -46,7 +46,7 @@ typedef NS_ENUM(NSInteger, XLMonth) {
     NSNumber *Year = [XL xl_getNSNumberWithString:[dateFormatter stringFromDate:_date]];
     [dateFormatter setDateFormat:@"MM"];
     NSNumber *Month = [XL xl_getNSNumberWithString:[dateFormatter stringFromDate:_date]];
-    [XLNetworkManager GET:[NSString stringWithFormat:@"%@SignIn/GetSignInList", kHttpHeader]
+    [XLNetworkManager GET:[NSString stringWithFormat:@"%@SignIn/GetSignInList", @"HTTPHeader"]
                     token:_user.token
                    params:@{@"AccountID":_user.accountId, @"Year":Year, @"Month":Month}
                   success:^(NSURLSessionDataTask *task, NSDictionary *JSONDictionary, NSString *JSONString) {
@@ -262,7 +262,7 @@ typedef NS_ENUM(NSInteger, XLMonth) {
 }
 
 - (UIColor *)setNavBarBackgroundColor {
-    return [UIColor xl_getColorWithInputHexString:@"#81D8D0"];
+    return [UIColor xlsn0w_hexString:@"#81D8D0"];
 }
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section {
@@ -376,7 +376,7 @@ typedef NS_ENUM(NSInteger, XLMonth) {
 #pragma mark - drawSignButtonUI
 
 - (void)signButtonAction:(UIButton *)button {
-    [XLNetworkManager POST:[NSString stringWithFormat:@"%@SignIn/SignIn", kHttpHeader]
+    [XLNetworkManager POST:[NSString stringWithFormat:@"%@SignIn/SignIn", @"HTTPHeader"]
                      token:_user.token
                     params:@{@"AccountID":_user.accountId,
                              @"PropertyID":_user.propertyId,
