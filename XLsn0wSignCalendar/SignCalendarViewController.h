@@ -1,7 +1,7 @@
 
 #import "XLNavViewController.h"
 
-@interface SignCalendarViewController : XLNavViewController
+@interface SignCalendarViewController : UIViewController
 
 @property (strong, nonatomic) NSDate *date;
 

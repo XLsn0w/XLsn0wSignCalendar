@@ -80,6 +80,7 @@ typedef NS_ENUM(NSInteger, XLMonth) {
                       NSInteger lastInt = _lastArray.count;
                       NSInteger nextInt = _nextArray.count;
                       NSInteger currentInt = _signDaysArray.count;
+                      //总数计算出来的
                       _totalInt = lastInt + nextInt + currentInt;
                       
                       [_collectionView.mj_header endRefreshing];
@@ -143,8 +144,8 @@ typedef NS_ENUM(NSInteger, XLMonth) {
     [self.collectionView registerClass:[CalendarCell class] forCellWithReuseIdentifier:@"CalendarCell"];
     [_collectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"Header"];
     [_collectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"Footer"];
-    _collectionView.mj_header = [XLRefreshGifHeader headerWithRefreshingTarget:self refreshingAction:@selector(parseSignDaysData)];
-    [_collectionView.mj_header beginRefreshing];
+//    _collectionView.mj_header = [XLRefreshGifHeader headerWithRefreshingTarget:self refreshingAction:@selector(parseSignDaysData)];
+//    [_collectionView.mj_header beginRefreshing];
 }
 
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
@@ -320,7 +321,8 @@ typedef NS_ENUM(NSInteger, XLMonth) {
 #pragma mark - UICollectionDatasource
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return _totalInt;
+//    return _totalInt;// 开启这行代码
+    return 40;//具体要和后台协商 计算出来总数  这边先写定一个值
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
