@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3586BF3C1E11FEB2003347F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3586BF3B1E11FEB2003347F6 /* main.m */; };
+		3586BF3F1E11FEB3003347F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3586BF3E1E11FEB3003347F6 /* AppDelegate.m */; };
+		3586BF421E11FEB3003347F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3586BF411E11FEB3003347F6 /* ViewController.m */; };
+		3586BF451E11FEB3003347F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3586BF431E11FEB3003347F6 /* Main.storyboard */; };
+		3586BF471E11FEB3003347F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3586BF461E11FEB3003347F6 /* Assets.xcassets */; };
+		3586BF4A1E11FEB3003347F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3586BF481E11FEB3003347F6 /* LaunchScreen.storyboard */; };
+		3586BF531E11FEF9003347F6 /* SignCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3586BF521E11FEF9003347F6 /* SignCalendarViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3586BF371E11FEB2003347F6 /* XLsn0wSignCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLsn0wSignCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3586BF3B1E11FEB2003347F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3586BF3D1E11FEB2003347F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3586BF3E1E11FEB3003347F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3586BF401E11FEB3003347F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3586BF411E11FEB3003347F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3586BF441E11FEB3003347F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3586BF461E11FEB3003347F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3586BF491E11FEB3003347F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3586BF4B1E11FEB3003347F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3586BF511E11FEF9003347F6 /* SignCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignCalendarViewController.h; sourceTree = "<group>"; };
+		3586BF521E11FEF9003347F6 /* SignCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignCalendarViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3586BF341E11FEB2003347F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3586BF2E1E11FEB2003347F6 = {
+			isa = PBXGroup;
+			children = (
+				3586BF391E11FEB2003347F6 /* XLsn0wSignCalendar */,
+				3586BF381E11FEB2003347F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3586BF381E11FEB2003347F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3586BF371E11FEB2003347F6 /* XLsn0wSignCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3586BF391E11FEB2003347F6 /* XLsn0wSignCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3586BF3D1E11FEB2003347F6 /* AppDelegate.h */,
+				3586BF3E1E11FEB3003347F6 /* AppDelegate.m */,
+				3586BF401E11FEB3003347F6 /* ViewController.h */,
+				3586BF411E11FEB3003347F6 /* ViewController.m */,
+				3586BF511E11FEF9003347F6 /* SignCalendarViewController.h */,
+				3586BF521E11FEF9003347F6 /* SignCalendarViewController.m */,
+				3586BF431E11FEB3003347F6 /* Main.storyboard */,
+				3586BF461E11FEB3003347F6 /* Assets.xcassets */,
+				3586BF481E11FEB3003347F6 /* LaunchScreen.storyboard */,
+				3586BF4B1E11FEB3003347F6 /* Info.plist */,
+				3586BF3A1E11FEB2003347F6 /* Supporting Files */,
+			);
+			path = XLsn0wSignCalendar;
+			sourceTree = "<group>";
+		};
+		3586BF3A1E11FEB2003347F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3586BF3B1E11FEB2003347F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3586BF361E11FEB2003347F6 /* XLsn0wSignCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3586BF4E1E11FEB3003347F6 /* Build configuration list for PBXNativeTarget "XLsn0wSignCalendar" */;
+			buildPhases = (
+				3586BF331E11FEB2003347F6 /* Sources */,
+				3586BF341E11FEB2003347F6 /* Frameworks */,
+				3586BF351E11FEB2003347F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLsn0wSignCalendar;
+			productName = XLsn0wSignCalendar;
+			productReference = 3586BF371E11FEB2003347F6 /* XLsn0wSignCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3586BF2F1E11FEB2003347F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = XLsn0w;
+				TargetAttributes = {
+					3586BF361E11FEB2003347F6 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = TJFMNSFT3H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3586BF321E11FEB2003347F6 /* Build configuration list for PBXProject "XLsn0wSignCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3586BF2E1E11FEB2003347F6;
+			productRefGroup = 3586BF381E11FEB2003347F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3586BF361E11FEB2003347F6 /* XLsn0wSignCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3586BF351E11FEB2003347F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3586BF4A1E11FEB3003347F6 /* LaunchScreen.storyboard in Resources */,
+				3586BF471E11FEB3003347F6 /* Assets.xcassets in Resources */,
+				3586BF451E11FEB3003347F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3586BF331E11FEB2003347F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3586BF421E11FEB3003347F6 /* ViewController.m in Sources */,
+				3586BF531E11FEF9003347F6 /* SignCalendarViewController.m in Sources */,
+				3586BF3F1E11FEB3003347F6 /* AppDelegate.m in Sources */,
+				3586BF3C1E11FEB2003347F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3586BF431E11FEB3003347F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3586BF441E11FEB3003347F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3586BF481E11FEB3003347F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3586BF491E11FEB3003347F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3586BF4C1E11FEB3003347F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3586BF4D1E11FEB3003347F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3586BF4F1E11FEB3003347F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TJFMNSFT3H;
+				INFOPLIST_FILE = XLsn0wSignCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xlsn0w.XLsn0wSignCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3586BF501E11FEB3003347F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TJFMNSFT3H;
+				INFOPLIST_FILE = XLsn0wSignCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xlsn0w.XLsn0wSignCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3586BF321E11FEB2003347F6 /* Build configuration list for PBXProject "XLsn0wSignCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3586BF4C1E11FEB3003347F6 /* Debug */,
+				3586BF4D1E11FEB3003347F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3586BF4E1E11FEB3003347F6 /* Build configuration list for PBXNativeTarget "XLsn0wSignCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3586BF4F1E11FEB3003347F6 /* Debug */,
+				3586BF501E11FEB3003347F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3586BF2F1E11FEB2003347F6 /* Project object */;
+}
